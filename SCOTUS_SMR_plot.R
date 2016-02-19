@@ -13,7 +13,7 @@
   par(mar = c(6, 4, 1, 1))
 
 ## Create the SMR plot backbone
-  plot(seq(1,22,1),smr.data$smr,pch=22,col="black",bg="black",xaxt="n",yaxt="n",
+  plot(seq(1,22,1),smr.data$smr[1:22],pch=22,col="black",bg="black",xaxt="n",yaxt="n",
        ylim=c(0,4),xlab="",ylab="",cex=1.5)
 
 ## Add axes and tick-mark labels
